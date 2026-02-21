@@ -1,6 +1,6 @@
 
 
-.homeTitle {
+.title {
     font-size: 50px;
     text-align: center;
     font-family: Arial;
@@ -51,10 +51,31 @@
     font-weight: bold;
 }
 
-.latestGame {
-    width: 300px;
+#container {
+    /* used for pictures*/
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 500px;
 }
 
 .content {
-    align-items: left;
+    box-shadow: 3px 3px 3px lightgray;
+    border: 1px solid rgb(116, 116, 255);
+}
+
+.latestTitle {
+    padding: -10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
 }
