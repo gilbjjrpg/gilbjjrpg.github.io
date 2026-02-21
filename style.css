@@ -1,0 +1,60 @@
+
+
+.homeTitle {
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+    color: rgb(255, 238, 139);
+    border: 10px;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(116, 116, 255);
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.nav li {
+    font-weight: bold;
+}
+
+.about {
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial;
+    color: rgb(116, 116, 255);
+}
+
+.missionStatement {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+    margin-left: 75px;
+    margin-right: 75px;
+    position: sticky;
+}
+
+.studioStatement {
+    font-weight: bold;
+}
+
+.introHome{
+    text-align: center;
+    font-weight: bold;
+}
+
+.latestGame {
+    width: 300px;
+}
+
+.content {
+    align-items: left;
+}
