@@ -42,7 +42,15 @@ h1 {
     color: rgb(116, 116, 255);
 }
 
-.missionStatement {
+h2 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial;
+    color: rgb(116, 116, 255);
+}
+
+#missionStatement {
     font-size: 20px;
     text-align: center;
     font-family: Arial;
@@ -73,7 +81,7 @@ h1 {
     font-size: 20px;
 }
 
-.latestTitle {
+#text {
     padding: -20px;
     padding-top: -40px;
     padding-bottom: -40px;
@@ -85,4 +93,18 @@ h1 {
 main p{
     text-align: center;
     font-size: 20px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#grid-container > div {
+    text-align: center;
+    border: 3px solid rgb(116, 116, 255);
+    flex-wrap: wrap;
 }
