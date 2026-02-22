@@ -4,18 +4,24 @@ header h1 {
     text-align: center;
     font-family: Arial;
     color: rgb(255, 238, 139);
-    border: 10px;
-    padding: 20px;
-    margin: 10px;
-    background-color: rgb(116, 116, 255);
+    align-items: center;
+    text-shadow: 0px 0px 0px;
 }
 
 header{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     gap: 10px;
+    color: rgb(255, 238, 139);
+    z-index: 1;
+    border: 20px;
+    border-radius: 40px 20px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(116, 116, 255);
 }
 
 nav ul{
@@ -30,7 +36,13 @@ nav ul{
 }
 
 nav li {
+    z-index: 3;
     font-weight: bold;
+    border: 10px;
+    border-color: rgb(255, 238, 139);
+    padding: 5px;
+    margin: 3px;
+    color: rgb(255, 238, 139);
 }
 
 h1 {
@@ -40,6 +52,7 @@ h1 {
     font-family: Arial;
     margin-top: 10px;
     color: rgb(116, 116, 255);
+    text-shadow: 3px 3px 1px lightgray;
 }
 
 h2 {
@@ -48,6 +61,12 @@ h2 {
     text-decoration: underline;
     font-family: Arial;
     color: rgb(116, 116, 255);
+}
+
+main > p {
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 #missionStatement {
@@ -70,6 +89,9 @@ h2 {
     padding-top: 10px;
     box-shadow: 6px 6px 6px lightgray;
     border: 1px solid rgb(116, 116, 255);
+    border-radius: 20px;
+    border-width: 3px;
+    align-items: center;
 }
 
 .content img {
@@ -79,6 +101,7 @@ h2 {
 .content p {
     text-align: center;
     font-size: 20px;
+    text-shadow: 3px 3px 1px lightgray;
 }
 
 #text {
