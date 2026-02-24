@@ -50,6 +50,20 @@ nav li {
     color: rgb(255, 238, 139);
 }
 
+.button {
+    transition: all 100ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05, 1.05);
+    color: rgb(255, 247, 0);  
+    cursor: pointer;
+}
+
+.button:active {
+    background: radial-gradient(#6f6af6, #9da2ff);
+}
+
 h1 {
     font-size: 50px;
     text-decoration: underline;
@@ -134,11 +148,15 @@ div.floatleft, div.floatright {
 
 img.floatright {
     width: 500px;
+    padding-bottom: 50px;
+    padding-right: 2px;
     float: right;
 }
 
 img.floatleft {
     width: 500px;
+    padding-bottom: 50px;
+    padding-left: 2px;
     float: left;
 }
 
@@ -187,4 +205,41 @@ div.floatright p, div.floatleft p {
 
 #grid-container img {
     width: 400px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+fieldset {
+    width: 350px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 8px;
+    align-items: center;
+}
+
+input[type=text], input[type=email], input[type=textarea] select {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #09f;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #07d;
 }
