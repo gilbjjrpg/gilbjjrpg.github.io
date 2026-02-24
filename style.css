@@ -34,17 +34,19 @@ nav ul{
     justify-content: center;
     font-family: Arial;
     font-size: 26px;
+    
 }
 
 nav li {
     z-index: 3;
     font-weight: bold;
-    border: 100px;
-    border-radius: 50px 30px;
+    border: 50px;
+    border-radius: 30px 10px;
     background-color: rgb(255, 238, 139);
     box-shadow: 6px 6px 6px lightgray;
-    padding: 10px;
+    padding: 15px;
     margin: 5px;
+    gap: 2px;
     color: rgb(255, 238, 139);
 }
 
@@ -119,6 +121,54 @@ main p {
 main p{
     text-align: center;
     font-size: 20px;
+}
+
+div.floatleft, div.floatright {
+    padding: 10px;
+    padding-bottom: 300px;
+    border: 10px;
+    margin: 10px;
+    margin-bottom: 30px;
+    
+}
+
+img.floatright {
+    width: 500px;
+    float: right;
+}
+
+img.floatleft {
+    width: 500px;
+    float: left;
+}
+
+div.floatleft h1, div.floatleft h2, div.floatleft h3, div.floatleft p{
+    text-align: left;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    clear: both;
+}
+
+div.floatright h1, div.floatright h2, div.floatright h3, div.floatright p{
+    text-align: right;
+    padding: 5px;
+    border: 5px;
+    margin: 5px;
+    clear: both;
+}
+
+div.floatright h3, div.floatleft h3 {
+    font-size: 30px;
+    text-shadow: 3px 3px 1px lightgray;
+    font-weight: none;
+}
+
+div.floatright p, div.floatleft p {
+    font-size: 20px;
+    text-shadow: 3px 3px 1px lightgray;
+    font-weight: none;
+
 }
 
 #grid-container {
