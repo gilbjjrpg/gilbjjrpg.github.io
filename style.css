@@ -88,7 +88,7 @@ main p {
     text-decoration-thickness: 2px;
 }
 
-#mission {
+#mission, div.floatleft p {
     font-size: 20px;
     text-align: center;
     font-family: Arial;
@@ -139,7 +139,7 @@ main p{
 
 div.floatleft, div.floatright {
     padding: 10px;
-    padding-bottom: 300px;
+    padding-bottom: 5px;
     border: 10px;
     margin: 10px;
     margin-bottom: 30px;
