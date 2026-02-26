@@ -51,11 +51,12 @@ have been working on and to provide them with feedback. We believe that players 
 know that we can hear their voices loud and clear!
 
 9. What tone should the website content have (professional, friendly, modern, etc.)?
-A: A professional, friendly and prideful tone; kind of like a little guy vs big guy.
+A: A friendly-yet-prideful tone, framing the company as the "little guy" of the industry it's in.
 
 10. What call-to-action do you want visitors to take?
-A: The call-to-action I want visitors to make is for them to check out demos of upcoming games and to purchase finished, full-priced games
-whether from the website or through other online storefronts.
+A: The call-to-action I want visitors to make is for them to check out available demos of upcoming games and to purchase finished, full-priced 
+games whether from the website or through other online storefronts as well as to stay in touch with the customers, whether it be through the 
+contact form or by being transparent in the provided blogs.
 
 11. What information must be immediately visible on the homepage?
 A: Information that must be readily available on the homepage will be the title of the company front-and-center, below it being the latest 

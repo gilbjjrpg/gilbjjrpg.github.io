@@ -1,6 +1,7 @@
 /*Background color for the whole website*/
 :root {
-    --bg-color: linear-gradient(to bottom, white, rgb(203, 229, 255))
+    /* General background color */
+    --bg-color: linear-gradient(to bottom, rgb(238, 245, 253), rgb(149, 198, 247));
 }
 
 body {
@@ -22,6 +23,30 @@ header{
     padding: 10px;
     margin: 5px;
     background-color: rgb(116, 116, 255);
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border: 40px;
+    margin-top: 30px;
+    color: rgb(255, 238, 139);
+    font-weight: bold;
+    text-shadow: 3px 3px 1px #aaa;
+}
+
+div.socials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 header h1 {
@@ -107,7 +132,7 @@ main p {
 }
 
 #mission, div.floatleft p, div.floatright p {
-    /* Custom formatting for the 'About' page */
+    /* Custom formatting for the 'About' page, as well as formatting for the test in the "Games & Demos" page. */
     font-size: 20px;
     text-align: center;
     font-family: Arial;
@@ -160,8 +185,8 @@ img.floatright {
     /* Sets custom rules for floatright to make it move to the right of the screen */
     width: 500px;
     padding-bottom: 50px;
-    margin-left: 2px;
-    padding-right: 2px;
+    margin: 5px;
+    padding: 0px;
     float: right;
 }
 
@@ -169,8 +194,8 @@ img.floatleft {
     /* Sets custom rules for floatleft to make it move to the left of the screen */ 
     width: 500px;
     padding-bottom: 50px;
-    margin-left: 2px;
-    padding-right: 2px;
+    margin: 3px;
+    padding: 0px;
     float: left;
 }
 
@@ -187,7 +212,7 @@ div.floatleft h1, div.floatleft h2, div.floatleft h3, div.floatleft p{
 div.floatright h1, div.floatright h2, div.floatright h3, div.floatright p{
     /* Alignment, padding, border, margin and clear customizations for
      all types of text all text in the floatright class */
-    text-align: right;
+    text-align: left;
     padding: 5px;
     border: 5px;
     margin: 5px;
@@ -206,6 +231,23 @@ div.floatright p, div.floatleft p {
     font-size: 20px;
     text-shadow: 3px 3px 1px lightgray;
     font-weight: none;
+}
+
+div.firstgame {
+    background: rgb(154, 255, 120);
+    border-radius: 15px;
+}
+
+div.secondgame {
+    background: rgb(154, 154, 212);
+    border-radius: 15px;
+}
+
+div.thirdgame {
+    color: white;
+    text-shadow: 3px 3px 1px black;
+    background: rgb(43, 43, 43);
+    border-radius: 15px;
 }
 
 #grid-container {
