@@ -1,16 +1,15 @@
+/*Background color for the whole website*/
+:root {
+    --bg-color: linear-gradient(to bottom, white, rgb(203, 229, 255))
+}
 
-header h1 {
-    font-size: 40px;
-    text-align: center;
-    font-family: Arial;
-    color: rgb(255, 238, 139);
-    align-items: center;
-    text-shadow: 3px 3px 1px black;
-    text-decoration: underline;
+body {
+    /*Background color for the whole website*/
+    background: var(--bg-color);
 }
 
 header{
-    position: relative;
+    /* For the ENTIRE header. This includes elements of header h1 and nav ul & li*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -25,7 +24,19 @@ header{
     background-color: rgb(116, 116, 255);
 }
 
+header h1 {
+    /* For header font */
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial;
+    color: rgb(255, 238, 139);
+    align-items: center;
+    text-shadow: 3px 3px 1px black;
+    text-decoration: underline;
+}
+
 nav ul{
+    /* Formats the button elements to be aligned horizontally and spaced*/
     display: flex;
     gap: 20px;
     padding: 0px;
@@ -34,37 +45,40 @@ nav ul{
     justify-content: center;
     font-family: Arial;
     font-size: 26px;
-    
 }
 
 nav li {
-    z-index: 3;
+    /* Customizes button elements */
     font-weight: bold;
     border: 50px;
     border-radius: 30px 10px;
     background-color: rgb(255, 238, 139);
-    box-shadow: 6px 6px 6px lightgray;
+    box-shadow: 6px 6px 6px rgb(135, 135, 135);
     padding: 15px;
     margin: 5px;
     gap: 2px;
     color: rgb(255, 238, 139);
 }
 
-.button {
-    transition: all 100ms ease-in-out;
-}
-
 .button:hover {
+    /* Button animation for when the cursor hovers above one */
     transform: scale(1.05, 1.05);
     color: rgb(255, 247, 0);  
     cursor: pointer;
 }
 
+.button {
+    /* Eases the button animation */
+    transition: all 100ms ease-in-out;
+}
+
 .button:active {
+    /* Changes the color of the button when clicked */
     background: radial-gradient(#6f6af6, #9da2ff);
 }
 
 h1 {
+    /* Customizes all h1 elements in every page */
     font-size: 50px;
     text-decoration: underline;
     text-align: center;
@@ -75,6 +89,7 @@ h1 {
 }
 
 h2 {
+    /* Customizes all h2 elements in every page */
     font-size: 20px;
     text-align: center;
     text-decoration: underline;
@@ -83,12 +98,16 @@ h2 {
 }
 
 main p {
+    /* Customizes the p elements in all main blocks */
     font-size: 24px;
     text-decoration: underline;
     text-decoration-thickness: 2px;
+    text-align: center;
+    font-size: 20px;
 }
 
 #mission, div.floatleft p, div.floatright p {
+    /* Custom formatting for the 'About' page */
     font-size: 20px;
     text-align: center;
     font-family: Arial;
@@ -98,6 +117,7 @@ main p {
 }
 
 #container {
+    /* Container for the two elements in the main page that allows for flexing when the browser shrinks in size */
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
@@ -105,39 +125,30 @@ main p {
 }
 
 .content {
+    /* For the specific class under the 'container' class that customizes the blocks */ 
     padding-top: 10px;
     box-shadow: 6px 6px 6px lightgray;
     border: 1px solid rgb(116, 116, 255);
     border-radius: 20px;
     border-width: 3px;
+    background-color: white;
     align-items: center;
 }
 
 .content img {
+    /* For the images being displayed from the .content class, located in #container */
     width: 500px;
 }
 
 .content p {
+    /* For the text being displayed from the .content class, located in #container */
     text-align: center;
     font-size: 20px;
     text-shadow: 3px 3px 1px lightgray;
 }
 
-#text {
-    padding: -20px;
-    padding-top: -40px;
-    padding-bottom: -40px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-}
-
-main p{
-    text-align: center;
-    font-size: 20px;
-}
-
 div.floatleft, div.floatright {
+    /* Sets both paddings, borders and margins for floatright and floatright */
     padding: 10px;
     padding-bottom: 5px;
     border: 10px;
@@ -146,20 +157,26 @@ div.floatleft, div.floatright {
 }
 
 img.floatright {
+    /* Sets custom rules for floatright to make it move to the right of the screen */
     width: 500px;
     padding-bottom: 50px;
+    margin-left: 2px;
     padding-right: 2px;
     float: right;
 }
 
 img.floatleft {
+    /* Sets custom rules for floatleft to make it move to the left of the screen */ 
     width: 500px;
     padding-bottom: 50px;
-    padding-left: 2px;
+    margin-left: 2px;
+    padding-right: 2px;
     float: left;
 }
 
 div.floatleft h1, div.floatleft h2, div.floatleft h3, div.floatleft p{
+    /* Alignment, padding, border, margin and clear customizations for
+     all types of text all text in the floatleft class */
     text-align: left;
     padding: 5px;
     border: 5px;
@@ -168,6 +185,8 @@ div.floatleft h1, div.floatleft h2, div.floatleft h3, div.floatleft p{
 }
 
 div.floatright h1, div.floatright h2, div.floatright h3, div.floatright p{
+    /* Alignment, padding, border, margin and clear customizations for
+     all types of text all text in the floatright class */
     text-align: right;
     padding: 5px;
     border: 5px;
@@ -176,19 +195,21 @@ div.floatright h1, div.floatright h2, div.floatright h3, div.floatright p{
 }
 
 div.floatright h3, div.floatleft h3 {
+    /* Rules for h3 elements in both float classes included in games.html */
     font-size: 30px;
     text-shadow: 3px 3px 1px lightgray;
     font-weight: none;
 }
 
 div.floatright p, div.floatleft p {
+    /* Rules for p elements in both float classes included in games.html */
     font-size: 20px;
     text-shadow: 3px 3px 1px lightgray;
     font-weight: none;
-
 }
 
 #grid-container {
+    /* Container for blog.html. Organizes the blocks to be laid out in a grid and flex depending on size of browser. */ 
     display: flex;
     grid-template-columns: auto auto auto;
     gap: 10px 10px;
@@ -198,21 +219,25 @@ div.floatright p, div.floatleft p {
 }
 
 #grid-container div {
+    /* Aligns the text included in <div> as well as give all things in the <div> borders */
     text-align: center;
     border: 3px solid rgb(116, 116, 255);
 }
 
 #grid-container img {
+    /* Customizes all image elemets in the contaier */
     width: 400px;
 }
 
 .form-container {
+    /* Container for the form used in contact.html */
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
 
 fieldset {
+    /* Creates a block for all things in the form */
     width: 350px;
     display: inline-block;
     text-align: right;
@@ -221,6 +246,7 @@ fieldset {
 }
 
 input[type=text], input[type=email], input[type=textarea] select {
+    /* Formats and customizes all text, email and textarea elements */
     box-sizing: border-box;
     width: 250px;
     padding: 10px;
@@ -229,6 +255,7 @@ input[type=text], input[type=email], input[type=textarea] select {
 }
 
 input[type=submit] {
+    /* Formats and customizes the submit element and makes it a button */
     width: 200px;
     background-color: #09f;
     color: white;
@@ -240,5 +267,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+    /* Makes it so that the button changes color when the cursor hovers above it*/
     background-color: #07d;
 }
