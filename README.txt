@@ -80,10 +80,19 @@ the highest degree of respect, I believe it's appropriate for the color scheme f
 associated with royalty. 
 
 3. What fonts will you use for headings and body text?
+
+
 4. How will spacing and layout improve readability?
+A: Spacing and layout will improve readability by having 
+
 6. What visual hierarchy will guide the user’s attention?
+A: The website will have 
+
 7. How will consistency be maintained across pages?
+
+
 8. What icons will you use?
+A: I will be using icons of well-known social media sites like X(Twitter), Instagram and TikTok while also using some niche ones like Bluesky.
 
 9. What emotions should the design evoke in users?
 A: Emotions I want to evoke in users are hope, happiness and satisfaction——hope that the company can be consistently be transparent while providing a consistent, level of quality, happiness because the company has proven itself to be a darling of the industry by taking a different approach on what games it wishes to make, and satisfaction coming from players knowing that they are never ignored or treated like their thoughts are invalid.  
@@ -112,7 +121,7 @@ Home:
 	- Games/Demos
 		- Will have links to pages for games and demos the company has available (there will only be 3.)
 	- Blog
-		- Will have links to separate published blog posts. 
+		- Will feature published blog posts. 
 	- Contact
 		- Will have a form that a person can use to get in contact with the company.
 
@@ -126,6 +135,8 @@ A: Yes, there will be user feedback that takes shape of a form in the Contact pa
 free to send me anything!
 
 4. What JavaScript functionality will you implement?
+
+
 
 5. How does interactivity improve user experience?
 A: Interactivity improves the user experience by making the page feel unlimited as opposed to feeling limited. 
