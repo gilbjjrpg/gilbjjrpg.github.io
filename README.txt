@@ -117,9 +117,9 @@ Home:
 	- Menus
 		- Will have links to pages for recently released games and published blog posts.
 	- About
-		- Will feature the company's mission statement
+		- Will feature information about the company: who they are, what they do, and what makes them stand out from their competitors.
 	- Games/Demos
-		- Will have links to pages for games and demos the company has available (there will only be 3.)
+		- Page for games and demos the company has available (there will only be 3.)
 	- Blog
 		- Will feature published blog posts. 
 	- Contact
@@ -139,7 +139,8 @@ free to send me anything!
 
 
 5. How does interactivity improve user experience?
-A: Interactivity improves the user experience by making the page feel unlimited as opposed to feeling limited. 
+A: Interactivity improves the user experience by making the page feel unlimited depending on their choice of device, meaning if they choose to read on mobile the website will
+scale and organize its contents to fit the device. 
 
 --------------------------------------------------
 RUBRIC (100 POINTS TOTAL)

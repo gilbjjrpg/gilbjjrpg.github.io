@@ -4,9 +4,11 @@
     --bg-color: linear-gradient(to bottom, rgb(238, 245, 253), rgb(149, 198, 247));
 }
 
-body {
+html, body {
     /*Background color for the whole website*/
     background: var(--bg-color);
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -23,30 +25,6 @@ header{
     padding: 10px;
     margin: 5px;
     background-color: rgb(116, 116, 255);
-}
-
-footer h2{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 10px;
-    border: 40px;
-    margin-top: 30px;
-    color: rgb(123, 55, 225);
-    font-weight: bold;
-    text-shadow: 2px 2px 1px #eee;
-}
-
-div.socials {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 5px;
-    margin: 5px;
 }
 
 header h1 {
@@ -204,10 +182,11 @@ div.floatleft p, div.floatright p, body{
 
 .content img {
     /* For the images being displayed from the .content class, located in #container */
-    display: flex;
-    flex-wrap: wrap;
-    width: 500px;
+    display: block;
+    width: 490px;
+    max-width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 .content p {
@@ -272,7 +251,7 @@ div.floatright p, div.floatleft p {
 
 div.firstgame {
     /* Background for the first game in the 'Games & Demos' page. */
-    background: rgb(154, 255, 120);
+    background: #80d164;
     border-radius: 15px;
 }
 
@@ -357,4 +336,55 @@ input[type=submit] {
 input[type=submit]:hover {
     /* Makes it so that the button changes color when the cursor hovers above it*/
     background-color: #07d;
+}
+
+.site-footer{
+    margin-top: 20px;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    box-sizing: border-box;
+
+    border-top: 3px solid rgb(116, 116, 255);
+    border-bottom: 3px solid rgb(116, 116, 255);
+    border: 3px solid rgb(116, 116, 255);
+    border-radius: 0px;
+    background-color: rgb(116, 116, 255);
+
+    padding: 5px 0;
+    
+}
+
+.footer-inner{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer p {
+    color: #ffff74;
+}
+
+.footer-nav {
+
+}
+
+footer h2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border: 40px;
+    margin-top: 30px;
+    color: #ffff74;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #846e00;
 }
