@@ -4,11 +4,33 @@
     --bg-color: linear-gradient(to bottom, rgb(238, 245, 253), rgb(149, 198, 247));
 }
 
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup img {
+    max-width: 80%;
+    border-radius: 10px;
+    border: 4px solid white;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 0px 25px grey;
+}
+
 html, body {
     /*Background color for the whole website*/
     background: var(--bg-color);
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -29,7 +51,7 @@ header{
 
 header h1 {
     /* For header font */
-    font-size: 40px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 238, 139);
@@ -85,7 +107,7 @@ nav li.selected a {
 
 h1 {
     /* Customizes all h1 elements in every page */
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: underline;
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -208,8 +230,9 @@ div.floatleft, div.floatright {
 img.floatright {
     /* Sets custom rules for floatright to make it move to the right of the screen */
     max-width: 100%;
+    width: 500px;
     height: auto;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     margin: 5px;
     padding: 0px;
     float: right;
@@ -253,6 +276,7 @@ div.firstgame {
     /* Background for the first game in the 'Games & Demos' page. */
     background: #80d164;
     border-radius: 15px;
+    line-height: 1.6;
 }
 
 div.secondgame {
@@ -260,6 +284,7 @@ div.secondgame {
     background: #ffdada;
     color: #000b3b;
     border-radius: 15px;
+    line-height: 1.6;
 }
 
 div.thirdgame {
@@ -268,11 +293,16 @@ div.thirdgame {
     text-shadow: 3px 3px 1px black;
     background: rgb(43, 43, 43);
     border-radius: 15px;
+    line-height: 1.6;
 }
 
 .firstgame, .secondgame, .thirdgame {
     border-radius: 15px;
     overflow: auto;
+}
+
+.thirdgame img {
+
 }
 
 #grid-container {

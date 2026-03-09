@@ -51,7 +51,7 @@ have been working on and to provide them with feedback. We believe that players 
 know that we can hear their voices loud and clear!
 
 9. What tone should the website content have (professional, friendly, modern, etc.)?
-A: A friendly-yet-prideful tone, framing the company as the "little guy" of the industry it's in.
+A: A very friendly tone while also being proud of the work the studio has done and prideful of its projects.
 
 10. What call-to-action do you want visitors to take?
 A: The call-to-action I want visitors to make is for them to check out available demos of upcoming games and to purchase finished, full-priced 
@@ -86,10 +86,12 @@ associated with royalty.
 A: Spacing and layout will improve readability by having 
 
 6. What visual hierarchy will guide the user’s attention?
-A: The website will have 
+A: The visual hierarchy that will guide the user's attention will be dependent on the colors and text thickness. The most important text will be boldened and larger, while supplemental
+text will be smaller with its own color and border, and normal text will be plain. 
 
 7. How will consistency be maintained across pages?
-
+A: Consistency will be maintained across pages by having the same colors for the header and footer and its buttons. Formatting will change depending on the page but will remain consistent, 
+like the formatting in the Games & Demos page will be consistent, the formatting for the Blogs will be consistent, and the organization for items on the homepage and blog portal will be the same.
 
 8. What icons will you use?
 A: I will be using icons of well-known social media sites like X(Twitter), Instagram and TikTok while also using some niche ones like Bluesky.
@@ -119,9 +121,9 @@ Home:
 	- About
 		- Will feature information about the company: who they are, what they do, and what makes them stand out from their competitors.
 	- Games/Demos
-		- Page for games and demos the company has available (there will only be 3.)
+		- Page for games company has available (there will only be 3.)
 	- Blog
-		- Will feature published blog posts. 
+		- Will feature two published blog posts. 
 	- Contact
 		- Will have a form that a person can use to get in contact with the company.
 
@@ -135,8 +137,7 @@ A: Yes, there will be user feedback that takes shape of a form in the Contact pa
 free to send me anything!
 
 4. What JavaScript functionality will you implement?
-
-
+A: A JavaScript function I will implement is one that will make images clickable and when clicked a larger version of the picture will be displayed on the middle of the screen.
 
 5. How does interactivity improve user experience?
 A: Interactivity improves the user experience by making the page feel unlimited depending on their choice of device, meaning if they choose to read on mobile the website will
