@@ -14,5 +14,12 @@ images.forEach(img => {
         popup.addEventListener("click", () => {
             popup.remove();
         });
+
+        document.addEventListener("keydown", function escClose(event) {
+            if(event.key === "Escape") {
+                popup.remove();
+                document.removeEventListener("keydown", escClose);
+            }
+        })
     });
 });

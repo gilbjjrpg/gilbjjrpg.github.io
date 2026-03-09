@@ -4,6 +4,10 @@
     --bg-color: linear-gradient(to bottom, rgb(238, 245, 253), rgb(149, 198, 247));
 }
 
+.clickable {
+    cursor: pointer;
+}
+
 .popup {
     position: fixed;
     top: 0;
