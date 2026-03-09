@@ -74,6 +74,7 @@ nav ul{
 }
 
 nav li a {
+    /*Styling for buttons.*/
     display: block;
     padding: 15px;
     text-decoration: underline;
@@ -99,6 +100,7 @@ nav li a {
 }
 
 nav li.selected a {
+    /* Makes it so that the selected button could not be clicked again.*/
     background: radial-gradient(#a29eff, #8d92ff);
     box-shadow: none;
     pointer-events: none;
@@ -126,6 +128,7 @@ h2{
 }
 
 img {
+    /* Styling rules for images. */
     max-width: 100px;
     height: auto;
 }
@@ -140,6 +143,7 @@ main p {
 }
 
 #mission{
+    /* General styling rules for all things in About page */
     display: block;
     line-height: 1.6;
     font-size: 20px;
@@ -147,11 +151,12 @@ main p {
 }
 
 #mission p{
+    /* Styling rule for text in the About page that centers everything */
     text-align: center;
 }
 
 #mission h2 {
-
+    /* Styling rules for h2 elements that gives the text a border*/
     background-color: rgb(255, 238, 139);
     border-radius: 10px;
     font-size: 40px; 
@@ -166,6 +171,7 @@ main p {
 }
 
 #mission img {
+    /* Styling rules for highlighted words in the About page. */
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -297,12 +303,9 @@ div.thirdgame {
 }
 
 .firstgame, .secondgame, .thirdgame {
+    /* Styling rules for first, second and third game that adds a scroll bar when the screen gets too small*/
     border-radius: 15px;
     overflow: auto;
-}
-
-.thirdgame img {
-
 }
 
 #grid-container {
@@ -316,6 +319,8 @@ div.thirdgame {
 }
 
 #blogpost {
+    /* Styling rules for all things within the blogpost id. Makes it so that the 
+    blogs are formatted in a clear and consistent way. */
     display: block;
     width: min(900px, 90%);
     margin: 0 auto;
@@ -328,6 +333,7 @@ div.thirdgame {
 }
 
 #blogpost h2 {
+    /* Styling rules for h2 elements in the blogpost id that gives the element a border */
     display: block;
     background-color: rgb(255, 238, 139);
     border-radius: 10px;
@@ -336,19 +342,23 @@ div.thirdgame {
 }
 
 #blogpost p {
+    /* Styling rules that make sure the main text is aligned to the left. */
     margin: 20px auto;
     max-width: 750px;
     text-align: start;
     font-family:Arial, Helvetica, sans-serif;
-    text-shadow: 3px, 3px, 3px black;
 }
 
 #blogpost figure {
+    /* Styling rules for figure in the blogpost id. Makes it so the images within figure are displayed in
+    the middle of the screen after paragraphs. */
     text-align: center;
     margin: 30px auto;
 }
 
 #blogpost figure img {
+    /* Styling rules for the images INSIDE the figure attribute. Makes it so the image can scale in size
+    with the website. */
     display: block;
     margin: 0 auto;
     max-width: 600px;
@@ -356,6 +366,7 @@ div.thirdgame {
 }
 
 #blogpost figcaption {
+    /* Styling rules for the captions underneath the images so that they are small and grey */
     font-size: 15px;
     color: #666;
     font-style: italic;
@@ -416,6 +427,8 @@ input[type=submit]:hover {
 }
 
 .site-footer{
+    /* Styling rules for all things within the site-footer class. Gives the spacing, 
+    color and scaling to all elements that are decedents of the id */
     margin-top: 20px;
     width: 100vw;
     margin-left: calc(50% - 50vw);
@@ -446,10 +459,6 @@ input[type=submit]:hover {
 
 footer p {
     color: #ffff74;
-}
-
-.footer-nav {
-
 }
 
 footer h2{
