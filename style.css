@@ -6,6 +6,12 @@
 
 .clickable {
     cursor: pointer;
+    transition: all 100ms ease-in-out, color 100ms ease-in-out;
+}
+
+.clickable:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 .popup {
