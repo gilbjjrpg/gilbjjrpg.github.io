@@ -22,10 +22,10 @@ A: The business this website is created for is fictional.
 A: The business provides video games, big and small, paid and free, for the public to enjoy and provide feedback.
 
 4. Who is the target audience?
-A: The target audience this business will be aiming at are individuals who love story-driven or casual games.
+A: The target audience this business will be aiming at are individuals who love story-driven or cartoonish games.
 
 5. What problem does this business solve?
-A: The problem this business will solve is 
+A: The problem the business is trying to solve for itself is its lack of transparency. The website allows for the business to be transparent.
 
 6. What makes this business unique compared to competitors?
 A: As stated previously, Grandberry Interactive Entertainment will be providing both big and short games, and depending on scale they will 
@@ -51,12 +51,12 @@ have been working on and to provide them with feedback. We believe that players 
 know that we can hear their voices loud and clear!
 
 9. What tone should the website content have (professional, friendly, modern, etc.)?
-A: A very friendly tone while also being proud of the work the studio has done and prideful of its projects.
+A: The tone of the website and its contents will invoke a friendly tone through its blog posts while also maintaining a professional and proud 
+tone, showing the the studio is proud of the work the it has done and isn't ashamed to share its inspriations.
 
 10. What call-to-action do you want visitors to take?
-A: The call-to-action I want visitors to make is for them to check out available demos of upcoming games and to purchase finished, full-priced 
-games whether from the website or through other online storefronts as well as to stay in touch with the customers, whether it be through the 
-contact form or by being transparent in the provided blogs.
+A: The call-to-action I want visitors to make is to play the games and provide feedback in the Contacts
+page with the customer sharing their thoughts on parts of the game they liked, didn't like or that the studio could've used more time to work on.
 
 11. What information must be immediately visible on the homepage?
 A: Information that must be readily available on the homepage will be the title of the company front-and-center, below it being the latest 
@@ -65,7 +65,7 @@ latest blog post from the company explaining the latest full-priced release and 
 on preexisting projects that have been revealed and personal anecdotes. 
 
 12. Will the site include images, videos, or other media? Why?
-A: Yes, the website will feature fake images as to provide clear transparency of what is being/has been worked on from the studio.
+A: Yes, the website will feature fake images and blogs of games as to provide clear transparency of what is being/has been worked on from the studio.
 
 --------------------------------------------------
 PART 2: DESIGN (Answer ALL questions, add your own if necessary)
@@ -73,17 +73,17 @@ PART 2: DESIGN (Answer ALL questions, add your own if necessary)
 1. What overall style will the website have (minimalist, corporate, creative, etc.)?
 The overall style the website will be aiming for is a minimal and rounded to give a friendly vibe.
 
-
 2. What color scheme will you use and why?
 A: Because of the "Grand" in "Grandberry" and the tone the company has in its mission statement and how it clearly treats its customers with 
 the highest degree of respect, I believe it's appropriate for the color scheme for the website to be blue and gold——reflecting colors commonly 
 associated with royalty. 
 
 3. What fonts will you use for headings and body text?
-
+A: Fonts that will be used for headings will be Gill Sans, and body text will remain as Arial.
 
 4. How will spacing and layout improve readability?
-A: Spacing and layout will improve readability by having 
+A: Spacing and layout will improve readability by having both text and images spaced out from each other, as well as
+there being line spacing so that text doesn't look squished against each other.
 
 6. What visual hierarchy will guide the user’s attention?
 A: The visual hierarchy that will guide the user's attention will be dependent on the colors and text thickness. The most important text will be boldened and larger, while supplemental
@@ -91,23 +91,27 @@ text will be smaller with its own color and border, and normal text will be plai
 
 7. How will consistency be maintained across pages?
 A: Consistency will be maintained across pages by having the same colors for the header and footer and its buttons. Formatting will change depending on the page but will remain consistent, 
-like the formatting in the Games & Demos page will be consistent, the formatting for the Blogs will be consistent, and the organization for items on the homepage and blog portal will be the same.
+like the formatting in the Games & Demos page will be consistent with text on the left and images associated with text on the right, the formatting for the Blogs will be consistent with line
+spacing and captions under images, and the organization for items on the homepage and blog portal will be nearly identitical.
 
 8. What icons will you use?
 A: I will be using icons of well-known social media sites like X(Twitter), Instagram and TikTok while also using some niche ones like Bluesky.
 
 9. What emotions should the design evoke in users?
-A: Emotions I want to evoke in users are hope, happiness and satisfaction——hope that the company can be consistently be transparent while providing a consistent, level of quality, happiness because the company has proven itself to be a darling of the industry by taking a different approach on what games it wishes to make, and satisfaction coming from players knowing that they are never ignored or treated like their thoughts are invalid.  
+A: Emotions I want to evoke in users are happiness and satisfaction——happiness coming from the fact that the company can be making an effort to be more transparent while providing a consistent
+level of quality, as well as the company proving itself to be a darling of the industry by taking a different approach on what games it wishes to make, and satisfaction coming from players 
+knowing that they are never ignored or treated like their thoughts are invalid thanks to the Contact pages allowing for that communication.  
 
 10. How will accessibility be considered (contrast, font size, etc.)?
-A: Accessibility will be considered by making sure all image elements include an alt, as well as having the website's content move appropriately
-depending on the size of the browser.
+A: Accessibility will be considered by including line spacing and spacing between text and images, as well as making sure all image elements include an alt, 
+and having the website's content move appropriately depending on the size of the browser.
 
 11. What inspiration sources influenced your design?
 A: Inspiration source that have influenced the design of the website is the Square Enix website, particularly the layout of the homepage.
-Although I couldn't replicate it, I tried my best to do something exactly like it for the homepage. 
+Although I couldn't replicate it, I tried my best to do something exactly like it for the homepage. As for the blog and games pages, those I had to come up with on my own.
 
 12. Describe the layout of the homepage and build the wireframe
+A: The layout of the homepage is simple—with it featuring the most recent news, newest blog post, buttons to different pages, and social medias at the bottom.
 
 --------------------------------------------------
 PART 3: INTERACTIVITY (Answer ALL questions, add your own if necessary)
@@ -117,9 +121,9 @@ A: I will explain interactive elements by order of pages mentioned in part 1.
 Pages that will be included are: Home, About, Games/Demos, Blog, and Contact.
 Home: 
 	- Menus
-		- Will have links to pages for recently released games and published blog posts.
+		- Will have direct links to pages for the studio's recently released game and recently published blog post.
 	- About
-		- Will feature information about the company: who they are, what they do, and what makes them stand out from their competitors.
+		- Will feature information about the company: who they are, what they do, their inspirations, and what makes them stand out from their competitors.
 	- Games/Demos
 		- Page for games company has available (there will only be 3.)
 	- Blog
@@ -129,7 +133,7 @@ Home:
 
 
 2. How will users navigate the website?
-A: Users will navigate the website by clicking the images on the home page or clicking the highlighted words, or
+A: Users will navigate the website by clicking the images on the home page, clicking the underlined colored words, or
 by using the buttons under or next to the company's name.
 
 3. Will there be form validation or user feedback? Explain.
@@ -140,8 +144,9 @@ free to send me anything!
 A: A JavaScript function I will implement is one that will make images clickable and when clicked a larger version of the picture will be displayed on the middle of the screen.
 
 5. How does interactivity improve user experience?
-A: Interactivity improves the user experience by making the page feel unlimited depending on their choice of device, meaning if they choose to read on mobile the website will
-scale and organize its contents to fit the device. 
+A: Interactivity improves the user experience by many ways. One of which will be animations of the buttons and images scaling slightly depending on if the user's cursor hovers 
+above them, as well as making sure (or at least attempting to) the page scales depending on screen size as to make the website feel unlimited depending on the user's choice of device, meaning if they choose 
+to read on mobile the website will scale and organize its contents to fit the device. 
 
 --------------------------------------------------
 RUBRIC (100 POINTS TOTAL)
