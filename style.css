@@ -239,6 +239,7 @@ main p {
 #mission img {
     /* Styling rules for highlighted words in the About page. */
     max-width: 100%;
+    width: 400px;
     height: auto;
     border-radius: 10px;
     padding-left: 0px;
