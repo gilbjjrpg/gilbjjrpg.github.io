@@ -246,8 +246,9 @@ main p {
 
 #mission-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    justify-content: center;
     align-content: center;
 }
 
@@ -430,12 +431,20 @@ div.thirdgame {
     margin: 30px auto;
 }
 
-#blogpost figure img, #mission-grid figure img {
+#blogpost figure img {
     /* Styling rules for the images INSIDE the figure attribute. Makes it so the image can scale in size
     with the website. */
     display: block;
     margin: 0 auto;
     max-width: 600px;
+    width: 100%;
+}
+
+#mission-grid figure img {
+    display: block;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    max-width: 350px;
     width: 100%;
 }
 
