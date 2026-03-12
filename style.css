@@ -512,7 +512,7 @@ div.secondgame {
 
 #blog-portal:hover {
     /* Button animation for when the cursor hovers above one */
-    transform: scale(1.05);
+    transform: scale(1.01);
     color: rgb(255, 247, 0);  
     cursor: pointer;
     background: radial-gradient(#6f6af6, #9da2ff);
