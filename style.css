@@ -263,7 +263,7 @@ main p {
     clear: both;
 }
 
-#mission mark{
+mark{
     /* Customization rules for all the highlighted words in the About page */
     color: black;
     padding: 2px 5px;
@@ -406,7 +406,7 @@ div.secondgame {
     line-height: 1.6;
 }
 
-div.thirdgame {
+#thirdgame {
     /* Background & text changes` for the third game in the 'Games & Demos' page. */
     color: white;
     text-shadow: 3px 3px 1px black;
@@ -415,7 +415,7 @@ div.thirdgame {
     line-height: 1.6;
 }
 
-.firstgame, .secondgame, .thirdgame {
+.firstgame, .secondgame, #thirdgame {
     /* Styling rules for first, second and third game that adds a scroll bar when the screen gets too small*/
     border-radius: 15px;
     overflow: auto;
