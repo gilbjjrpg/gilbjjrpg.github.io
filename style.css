@@ -5,16 +5,19 @@
 }
 
 .clickable {
+    /* For JS  code. Provides animation for when the user's cursor hovers above a clickable image. */
     cursor: pointer;
     transition: all 100ms ease-in-out, color 100ms ease-in-out;
 }
 
 .clickable:hover {
+    /* Same as above—this only just scales the picture up to make it bigger when the cursor hovers above it */
     transform: scale(1.02);
     cursor: pointer;
 }
 
 .popup {
+    /* Rules for the BACKGROUND of the pop-up for the image the user clicked. */
     position: fixed;
     top: 0;
     left: 0;
@@ -28,11 +31,13 @@
 }
 
 .image-box {
+    /* For JS code. Makes the position of pop-up images the user clicked stay where it is on screen and fixes the display to where it is.*/
     position: relative;
     display: inline-block;
 }
 
 .popup img {
+    /* Size and color rules for the pop-up image the user clicked. Also creates the animation for the clicked image */
     max-width: 600px;
     max-height: 80vh;
     border-radius: 10px;
@@ -44,6 +49,7 @@
     animation: zoomIn 0.25s ease-out;
 }
 
+    /* Animation for the pop-up image when clicked. */
 @keyframes zoomIn {
     from {
         transform: scale(0.8);
@@ -57,6 +63,7 @@
 }
 
 .close-btn {
+    /* Positioning rules for the close button */
     position: fixed;
     top: 20px;
     right: 30px;
@@ -179,6 +186,7 @@ h2{
 }
 
 h3 {
+    /* Customizes all h3 elements in every page */
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -204,6 +212,13 @@ main p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 10%;
+    overflow: auto;
+}
+
+#mission::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #text-mission{
@@ -227,9 +242,11 @@ main p {
     border-radius: 10px;
     font-size: 40px; 
     text-shadow: 3px 3px 2px lightgray; 
+    clear: both;
 }
 
 #mission mark{
+    /* Customization rules for all the highlighted words in the About page */
     color: black;
     padding: 2px 5px;
     background-color: rgb(251, 247, 130);
@@ -246,6 +263,7 @@ main p {
 }
 
 #mission-grid {
+    /* Places inspiration images in a grid. */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 40px;
@@ -309,15 +327,16 @@ div.floatleft, div.floatright {
     margin-bottom: 30px;
 }
 
-img.floatright {
+.floatright {
     /* Sets custom rules for floatright to make it move to the right of the screen */
-    max-width: 100%;
-    width: 500px;
+    display: block;
+    max-width: 500px;
+    width: min(100%);
     height: auto;
-    padding-bottom: 35px;
-    margin: 5px;
-    padding: 0px;
+    margin: 0 0 5px 5px;
+    padding: 5px;
     float: right;
+    border-radius: 10px;
 }
 
 div.floatleft h1, div.floatleft h2, div.floatleft h3, div.floatleft p{
@@ -433,7 +452,7 @@ div.thirdgame {
 }
 
 #blogpost figure img {
-    /* Styling rules for the images INSIDE the figure attribute. Makes it so the image can scale in size
+    /* Styling rules for the images INSIDE the figure element. Makes it so the image can scale in size
     with the website. */
     display: block;
     margin: 0 auto;
@@ -442,6 +461,8 @@ div.thirdgame {
 }
 
 #mission-grid figure img {
+    /* Styling rules for the images inside the figure element. Spaces them evenly as well as scales them
+    with the website */ 
     display: block;
     margin: 0 auto;
     justify-content: space-evenly;
@@ -458,6 +479,7 @@ div.thirdgame {
 }
 
 #blog-portal {
+    /* Makes the "Return to blog portal" text bold*/
     font-weight: bold;
 }
 
@@ -533,12 +555,14 @@ input[type=submit]:hover {
 }
 
 .footer-inner{
+    /* Width. margin and padding rules for the footer. */
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .socials {
+    /* Rules that allow the icons in socials to flex with the page, as well as centers them. */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -546,10 +570,13 @@ input[type=submit]:hover {
 }
 
 footer p {
+    /* Color for copyright text in footer */
     color: #ffff74;
+    text-shadow: 2px 2px 1px #846e00;
 }
 
 footer h2{
+    /* */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
