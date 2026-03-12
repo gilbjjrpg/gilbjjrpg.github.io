@@ -52,7 +52,7 @@ know that we can hear their voices loud and clear!
 
 9. What tone should the website content have (professional, friendly, modern, etc.)?
 A: The tone of the website and its contents will invoke a friendly tone through its blog posts while also maintaining a professional and proud 
-tone, showing the the studio is proud of the work the it has done and isn't ashamed to share its inspriations.
+tone, showing the studio is proud of the work it has done and isn't ashamed to share its inspirations.
 
 10. What call-to-action do you want visitors to take?
 A: The call-to-action I want visitors to make is to play the games and provide feedback in the Contacts

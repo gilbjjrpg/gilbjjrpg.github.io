@@ -4,6 +4,24 @@
     --bg-color: linear-gradient(to bottom, rgb(238, 245, 253), rgb(149, 198, 247));
 }
 
+@media (max-width: 768px){
+    nav ul {
+        flex-direction: column;
+    }
+
+    #grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .floatright, .floatleft {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+        max-width: 100%;
+    }
+
+}
+
 .clickable {
     /* For JS  code. Provides animation for when the user's cursor hovers above a clickable image. */
     cursor: pointer;
@@ -153,7 +171,7 @@ nav li a:hover {
     background: radial-gradient(#6f6af6, #9da2ff);
 }
 
-nav li a {
+nav li a, #blog-portal {
     /* Eases the button animation */
     transition: all 100ms ease-in-out, color 100ms ease-in-out;
 }
@@ -193,7 +211,7 @@ h3 {
 
 img {
     /* Styling rules for images. */
-    max-width: 100px;
+    max-width: 100%;
     height: auto;
 }
 
@@ -480,7 +498,24 @@ div.thirdgame {
 
 #blog-portal {
     /* Makes the "Return to blog portal" text bold*/
+    display: block;
+    padding: 15px;
     font-weight: bold;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    background-color: rgb(255, 238, 139);
+    border-radius: 30px 10px;
+    box-shadow: 6px 6px 6px rgb(135, 135, 135);
+    color: rgb(0, 0, 0);
+}
+
+#blog-portal:hover {
+    /* Button animation for when the cursor hovers above one */
+    transform: scale(1.05);
+    color: rgb(255, 247, 0);  
+    cursor: pointer;
+    background: radial-gradient(#6f6af6, #9da2ff);
 }
 
 #grid-container div {
@@ -491,7 +526,9 @@ div.thirdgame {
 
 #grid-container img {
     /* Customizes all image elemets in the contaier */
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
 }
 
 .form-container {
@@ -572,11 +609,11 @@ input[type=submit]:hover {
 footer p {
     /* Color for copyright text in footer */
     color: #ffff74;
-    text-shadow: 2px 2px 1px #846e00;
+    text-shadow: 3px 3px 1px #846e00;
 }
 
 footer h2{
-    /* */
+    /* Styling rules for h2 elements in the footer */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
